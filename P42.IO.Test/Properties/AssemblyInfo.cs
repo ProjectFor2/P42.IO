@@ -2,13 +2,13 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("P42.IO.Test")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Project For 2 IO Test")]
+[assembly: AssemblyDescription("Unit Test.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("P42.IO.Test")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("Project For 2")]
+[assembly: AssemblyProduct("P42.IO")]
+[assembly: AssemblyCopyright("Copyright © 2020 Project For 2")]
+[assembly: AssemblyTrademark("Project For 2")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
