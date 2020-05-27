@@ -11,13 +11,13 @@
 <br />
 <p align="center">
   <a href="https://projectfor2.com.br/">
-    <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/Logo-separado.png" alt="Logo" width="150" height="110">
+    <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/Logo-separado.png" alt="Logo" width="50" height="50">
   </a>
   <a href="https://www.microsoft.com/">
-    <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/windows.png" alt="Logo" width="120" height="120">
-  </a>
+    <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/windows.png" alt="Logo" width="50" height="50">
+  </>
    <a href="https://www.uipath.com/">
-    <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/uipath.jpg" alt="Logo" width="120" height="120">
+    <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/uipath.jpg" alt="Logo" width="50" height="50">
   </a>
 
   <h3 align="center">P42 Activities IO</h3>
@@ -42,10 +42,10 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Getting Started](#getting-started)
+<!--* [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
-* [Usage](#usage)
+* [Usage](#usage)-->
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
