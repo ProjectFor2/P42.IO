@@ -20,7 +20,11 @@ namespace P42.IO.Test
         public void CreateDirectoryArgumentNullExceptionTest() => CreateFolderSuccessTest(null);
 
         [TestMethod, ExpectedException(typeof(DirectoryNotFoundException))]
-        public void CreateDirectoryDirectoryNotFoundExceptionTest() => CreateFolderSuccessTest($@"a:\{PATH}");
+        public void CreateDirectoryDirectoryNotFoundExceptionTest()
+        {
+            System.IO.Directory.SetCurrentDirectory($@"PATH\{PATH}_temp");
+            CreateFolderSuccessTest($@"{PATH}");
+        }
 
         [TestMethod, ExpectedException(typeof(IOException))]
         public void CreateDirectoryIOExceptionTest()

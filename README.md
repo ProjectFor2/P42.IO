@@ -2,6 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![Devops][azure-devops]][azure-build]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -173,4 +174,6 @@ Project Link: [https://github.com/ProjectFor2/P42-Activities-IO](https://github.
 [license-url]: https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/projectfor2
+[azure-devops]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_apis/build/status/Project%20For%202%20IO%20Activities%20CI-CD-.NET%20Desktop-CI?branchName=develop
+[azure-build]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_build
 <!--[product-screenshot]: -->
