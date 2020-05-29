@@ -45,7 +45,8 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>P42.IO.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -94,7 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tools\SvgToXaml.exe.config" />
-    <None Include="P42.IO.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
