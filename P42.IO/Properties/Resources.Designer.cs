@@ -22,21 +22,21 @@ namespace P42.IO.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        public Resources() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("P42.IO.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace P42.IO.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Directory.
         /// </summary>
-        internal static string CategoryDirectory {
+        public static string CategoryDirectory {
             get {
                 return ResourceManager.GetString("CategoryDirectory", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Output.
         /// </summary>
-        internal static string CategoryOutput {
+        public static string CategoryOutput {
             get {
                 return ResourceManager.GetString("CategoryOutput", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Creating folders in a specified path..
         /// </summary>
-        internal static string CreateFolderDescription {
+        public static string CreateFolderDescription {
             get {
                 return ResourceManager.GetString("CreateFolderDescription", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Create Folder.
         /// </summary>
-        internal static string CreateFolderDisplayName {
+        public static string CreateFolderDisplayName {
             get {
                 return ResourceManager.GetString("CreateFolderDisplayName", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The full path of the directory to be created..
         /// </summary>
-        internal static string CreateFolderPathDescription {
+        public static string CreateFolderPathDescription {
             get {
                 return ResourceManager.GetString("CreateFolderPathDescription", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Path.
         /// </summary>
-        internal static string CreateFolderPathDisplayName {
+        public static string CreateFolderPathDisplayName {
             get {
                 return ResourceManager.GetString("CreateFolderPathDisplayName", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Returns object of type DirectoryInfo..
         /// </summary>
-        internal static string CreateFolderPathInfoDescription {
+        public static string CreateFolderPathInfoDescription {
             get {
                 return ResourceManager.GetString("CreateFolderPathInfoDescription", resourceCulture);
             }
@@ -126,16 +126,34 @@ namespace P42.IO.Properties {
         /// <summary>
         ///   Looks up a localized string similar to PathInfo.
         /// </summary>
-        internal static string CreateFolderPathInfoDisplayName {
+        public static string CreateFolderPathInfoDisplayName {
             get {
                 return ResourceManager.GetString("CreateFolderPathInfoDisplayName", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Enter Path.
+        /// </summary>
+        public static string CreateFolderPlaceHolder {
+            get {
+                return ResourceManager.GetString("CreateFolderPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select Folder.
+        /// </summary>
+        public static string FolderBrowserDialogDescription {
+            get {
+                return ResourceManager.GetString("FolderBrowserDialogDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please provide a value for {0}..
         /// </summary>
-        internal static string ValidationValueError {
+        public static string ValidationValueError {
             get {
                 return ResourceManager.GetString("ValidationValueError", resourceCulture);
             }

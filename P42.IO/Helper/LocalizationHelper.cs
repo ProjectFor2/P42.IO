@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel;
 
-namespace P42.IO
+namespace P42.IO.Helper
 {
     [AttributeUsage(AttributeTargets.Property)]
     public sealed class LocalizedCategoryAttribute : CategoryAttribute

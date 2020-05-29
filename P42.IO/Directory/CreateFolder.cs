@@ -1,6 +1,6 @@
-﻿using P42.IO.Properties;
+﻿using P42.IO.Helper;
+using P42.IO.Properties;
 using System.Activities;
-using System.ComponentModel;
 using System.IO;
 
 namespace P42.IO.Directory
@@ -9,15 +9,20 @@ namespace P42.IO.Directory
     [LocalizedDescription(nameof(Resources.CreateFolderDescription))]
     public sealed class CreateFolder : CodeActivity
     {
+
+#if DEBUG
+        public CreateFolder() => new DesignerMetadata().Register();
+#endif
+
         [RequiredArgument]
         [LocalizedCategory(nameof(Resources.CategoryDirectory))]
         [LocalizedDisplayName(nameof(Resources.CreateFolderPathDisplayName))]
         [LocalizedDescription(nameof(Resources.CreateFolderPathDescription))]
         public InArgument<string> Path { get; set; }
 
-        [Category(nameof(Resources.CategoryOutput))]
-        [DisplayName(nameof(Resources.CreateFolderPathInfoDisplayName))]
-        [Description(nameof(Resources.CreateFolderPathInfoDescription))]
+        [LocalizedCategory(nameof(Resources.CategoryOutput))]
+        [LocalizedDisplayName(nameof(Resources.CreateFolderPathInfoDisplayName))]
+        [LocalizedDescription(nameof(Resources.CreateFolderPathInfoDescription))]
         public OutArgument<DirectoryInfo> PathInfo { get; set; }
 
         protected override void CacheMetadata(CodeActivityMetadata metadata)

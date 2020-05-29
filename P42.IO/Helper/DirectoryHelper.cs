@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace P42.IO
+namespace P42.IO.Helper
 {
     internal static class DirectoryHelper
     {

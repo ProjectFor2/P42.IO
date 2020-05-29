@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace P42.IO
+namespace P42.IO.Helper
 {
-    public class DataContainer : IDataContainer
+    public class DataContainerHelper : IDataContainer
     {
         private readonly Dictionary<Type, object> _objectHolder;
 
-        public DataContainer(Dictionary<Type, object> objectHolder) => _objectHolder = objectHolder;
+        public DataContainerHelper(Dictionary<Type, object> objectHolder)
+        {
+            _objectHolder = objectHolder;
+        }
 
-        public DataContainer() => new Dictionary<Type, object>();
+        public DataContainerHelper() => new Dictionary<Type, object>();
 
         public virtual void Add<T>(T objectToAdd) where T : class => _objectHolder[typeof(T)] = objectToAdd;
 

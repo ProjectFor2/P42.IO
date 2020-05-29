@@ -1,0 +1,38 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Create Folder Icon-->
+    <DrawingGroup x:Key="CreateFolder_Icon">
+        <GeometryDrawing>
+            <GeometryDrawing.Brush>
+                <SolidColorBrush Color="#FF000000" Opacity="0.2" />
+            </GeometryDrawing.Brush>
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="2.5" RadiusY="2.5" Rect="7,28,50,28" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF4877B1" Geometry="F1 M64,64z M0,0z M7,44.5C7,45.885,8.115,47,9.5,47L54.5,47C55.885,47,57,45.885,57,44.5L57,17.5C57,16.115,55.885,15,54.5,15L29,15 29,12.5C29,11.115,27.885,10,26.5,10L9.5,10C8.115,10,7,11.115,7,12.5" />
+        <GeometryDrawing>
+            <GeometryDrawing.Brush>
+                <SolidColorBrush Color="#FF000000" Opacity="0.2" />
+            </GeometryDrawing.Brush>
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="2.5" RadiusY="2.5" Rect="7,26,50,28" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FF5294E2">
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="2.5" RadiusY="2.5" Rect="7,27,50,28" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Geometry="F1 M64,64z M0,0z M9.5,10C8.115,10,7,11.115,7,12.5L7,13.5C7,12.115,8.115,11,9.5,11L26.5,11C27.885,11,29,12.115,29,13.5L29,12.5C29,11.115,27.885,10,26.5,10z M29,15L29,16 54.5,16C55.89,16,57,17.115,57,18.5L57,17.5C57,16.115,55.89,15,54.5,15z">
+            <GeometryDrawing.Brush>
+                <SolidColorBrush Color="#FFFFFFFF" Opacity="0.1" />
+            </GeometryDrawing.Brush>
+        </GeometryDrawing>
+    </DrawingGroup>
+
+    <DrawingBrush x:Key="CreateFolderIcon" Drawing="{StaticResource CreateFolder_Icon}" />
+
+</ResourceDictionary>
