@@ -12,7 +12,7 @@
     <iconUrl>https://projectfor2.com.br/wp-content/uploads/2020/05/Logo-separado.ico</iconUrl>
     <description>
       Custom activities to manipulate directories and files on the Windows Workflow Foundation and UiPath platform.
-      You can create, search, rename, copy, move, replace, delete and add/remove permissions on folders and files.
+You can create, search, rename, copy, move, replace, delete and add/remove permissions on folders and files.
     </description>
     <summary>Custom activities to manipulate directories and files on the Windows Workflow Foundation and UiPath platform.</summary>
     <releaseNotes>#1 Create Folder Activity.</releaseNotes>
