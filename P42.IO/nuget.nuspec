@@ -27,10 +27,10 @@
       <frameworkAssembly assemblyName="System.Activities" targetFramework=".NETFramework4.8" />
       <frameworkAssembly assemblyName="System.ServiceModel" targetFramework=".NETFramework4.8" />
       <frameworkAssembly assemblyName="System.ServiceModel.Activities" targetFramework=".NETFramework4.8" />
-    </frameworkAssemblies>    
+    </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="P42.IO.dll" target="lib\net48\P42.IO.dll" />
-    <file src="P42.IO.pdb" target="lib\net48\P42.IO.pdb" />
+    <file src="P42.IO.dll" target="lib\P42.IO.dll" />
+    <file src="P42.IO.pdb" target="lib\P42.IO.pdb" />
   </files>
 </package>
