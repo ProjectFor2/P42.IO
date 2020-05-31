@@ -19,7 +19,6 @@
     <copyright>Copyright © 2020 Project For 2</copyright>
     <language>en-US</language>
     <tags>ProjectFor2 UiPath AcitivityIO ActivityFolder IO Folder CreateFolder</tags>
-    <repository type="git" url="https://github.com/ProjectFor2/P42-Activities-IO.git" branch="feature/f1-create-folder" />
     <dependencies>
       <group targetFramework=".NETFramework4.8" />
     </dependencies>
