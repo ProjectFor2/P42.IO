@@ -30,7 +30,7 @@
     </frameworkAssemblies>    
   </metadata>
   <files>
-    <file src="P42.IO\bin\Release\P42.IO.dll" target="lib\net48\P42.IO.dll" />
-    <file src="P42.IO\bin\Release\P42.IO.pdb" target="lib\net48\P42.IO.pdb" />
+    <file src="P42.IO.dll" target="lib\net48\P42.IO.dll" />
+    <file src="P42.IO.pdb" target="lib\net48\P42.IO.pdb" />
   </files>
 </package>
