@@ -4,7 +4,10 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-![build-shield-master] ![build-shield-develop] ![release-shield-p42test] ![release-shield-p42] ![release-shield-nuget] ![release-shield-connect]
+
+![build-shield-master] ![build-shield-develop] 
+
+![release-shield-github] ![release-shield-nuget] ![release-shield-connect]
 
 
 
@@ -189,7 +192,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [build-shield-master]: https://img.shields.io/azure-devops/build/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/13/master?label=Build%20Master&logo=Azure%20Pipelines
 [build-shield-develop]: https://img.shields.io/azure-devops/build/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/12/develop?label=Build%20Develop&logo=Azure%20Pipelines
 
-[release-shield-p42test]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/1/1?label=Deployment%20P42Test&logo=Azure%20Artifacts
-[release-shield-p42]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/3/3?label=Deployment%20P42Public&logo=Azure%20Artifacts
+[release-shield-github]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/5/5?label=Deployment%20GitHub&logo=github
 [release-shield-nuget]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/2/2?label=Deployment%20NuGet&logo=NuGet
-[release-shield-connect]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/4/4?label=Deployment%20NuGet&logo=Azure%20Pipelines
+[release-shield-connect]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/4/4?label=Deployment%20UiPath&logo=Azure%20Pipelines
