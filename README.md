@@ -48,9 +48,11 @@
   * [Installation](#installation)
 * [Usage](#usage)-->
 * [Roadmap](#roadmap)
+<!--* [Deployment](#deployment)-->
 * [Contributing](#contributing)
+* [Versioning](#versioning)
+* [Authors](#authors)
 * [License](#license)
-* [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -120,6 +122,13 @@ See the [open issues](https://github.com/ProjectFor2/P42-Activities-IO/issues) f
 
 
 
+<!-- DEPLOYMENT -->
+<!--## Deployment
+
+Add additional notes about how to deploy this on a live system-->
+
+
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -129,25 +138,32 @@ To contribute, follow the steps below.
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+5. Open a Pull Request to develop branch
+
+
+
+<!-- VERSIONING -->
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/ProjectFor2/P42-Activities-IO/tags).
+
+
+
+<!-- AUTHORS -->
+## Authors
+
+Robson Azevedo - [@GitHub](https://github.com/robsonazevedo) [@LinkedIn](https://www.linkedin.com/in/robson-azevedo/) [@Microsoft](https://docs.microsoft.com/pt-br/users/robson-martins-azevedo) [@UiPath](https://connect.uipath.com/community/profile/robson-azevedo)
+
+Andressa Bastos - [@GitHub](https://github.com/andressa-armb) [@LinkedIn](https://www.linkedin.com/in/andressa-rmb/)
+
+Project Link: [https://github.com/ProjectFor2/P42-Activities-IO](https://github.com/ProjectFor2/P42-Activities-IO)
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Robson Azevedo - [@LinkedIn](https://www.linkedin.com/in/robson-azevedo/)
-
-Andressa Bastos - [@LinkedIn](https://www.linkedin.com/in/andressa-rmb/)
-
-Project Link: [https://github.com/ProjectFor2/P42-Activities-IO](https://github.com/ProjectFor2/P42-Activities-IO)
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE) file for details
 
 
 
