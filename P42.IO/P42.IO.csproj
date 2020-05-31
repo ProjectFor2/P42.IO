@@ -95,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tools\SvgToXaml.exe.config" />
+    <None Include="nuget.nuspec">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
