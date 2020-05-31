@@ -132,13 +132,8 @@ Add additional notes about how to deploy this on a live system-->
 <!-- CONTRIBUTING -->
 ## Contributing
 
-To contribute, follow the steps below.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request to develop branch
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
+of conduct, and the process for submitting pull requests to us.
 
 
 
@@ -163,7 +158,7 @@ Project Link: [https://github.com/ProjectFor2/P42-Activities-IO](https://github.
 <!-- LICENSE -->
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 
 
@@ -190,6 +185,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 [license-url]: https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/projectfor2
-[azure-devops]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_apis/build/status/Project%20For%202%20IO%20Activities%20CI-CD-.NET%20Desktop-CI?branchName=develop
-[azure-build]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_build
+[azure-devops]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_apis/build/status/Project%20For%202%20IO%20Activities%20-%20CI%20Master
+[azure-build]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_build?definitionId=13
 <!--[product-screenshot]: -->
