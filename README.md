@@ -2,9 +2,9 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Devops][azure-devops]][azure-build]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+![build-shield-master] ![build-shield-develop] ![release-shield-p42test] ![release-shield-p42] ![release-shield-nuget] ![release-shield-connect]
 
 
 
@@ -173,18 +173,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ProjectFor2/P42-Activities-IO.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=Contributors
 [contributors-url]: https://github.com/ProjectFor2/P42-Activities-IO/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ProjectFor2/P42-Activities-IO.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=Forks&logo
 [forks-url]: https://github.com/ProjectFor2/P42-Activities-IO/network/members
-[stars-shield]: https://img.shields.io/github/stars/ProjectFor2/P42-Activities-IO.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=Stars
 [stars-url]: https://github.com/ProjectFor2/P42-Activities-IO/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ProjectFor2/P42-Activities-IO.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=Issues
 [issues-url]: https://github.com/ProjectFor2/P42-Activities-IO/issues
-[license-shield]: https://img.shields.io/github/license/ProjectFor2/P42-Activities-IO.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=License
 [license-url]: https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/projectfor2
-[azure-devops]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_apis/build/status/Project%20For%202%20IO%20Activities%20-%20CI%20Master
-[azure-build]: https://dev.azure.com/ProjectFor2/Project%20For%202%20IO%20Activities%20CI-CD/_build?definitionId=13
-<!--[product-screenshot]: -->
+
+[build-shield-master]: https://img.shields.io/azure-devops/build/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/13/master?label=Build%20Master&logo=Azure%20Pipelines
+[build-shield-develop]: https://img.shields.io/azure-devops/build/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/12/develop?label=Build%20Develop&logo=Azure%20Pipelines
+
+[release-shield-p42test]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/1/1?label=Deployment%20P42Test&logo=Azure%20Artifacts
+[release-shield-p42]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/3/3?label=Deployment%20P42Public&logo=Azure%20Artifacts
+[release-shield-nuget]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/2/2?label=Deployment%20NuGet&logo=NuGet
+[release-shield-connect]: https://img.shields.io/azure-devops/release/projectfor2/2a409647-c69d-41ec-9ea8-0c7e2f698ba2/4/4?label=Deployment%20NuGet&logo=Azure%20Pipelines
