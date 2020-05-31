@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>P42.IO</id>
+    <version>1.0.0</version>
+    <title>Project For 2 IO Activities</title>
+    <authors>Robson Azevedo</authors>
+    <owners>Robson Azevedo</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ProjectFor2/P42-Activities-IO</projectUrl>
+    <iconUrl>https://projectfor2.com.br/wp-content/uploads/2020/05/Logo-separado.ico</iconUrl>
+    <description>
+      Custom activities to manipulate directories and files on the Windows Workflow Foundation and UiPath platform.
+You can create, search, rename, copy, move, replace, delete and add/remove permissions on folders and files.
+    </description>
+    <summary>Custom activities to manipulate directories and files on the Windows Workflow Foundation and UiPath platform.</summary>
+    <releaseNotes>#1 Create Folder Activity.</releaseNotes>
+    <copyright>Copyright © 2020 Project For 2</copyright>
+    <language>en-US</language>
+    <tags>ProjectFor2 UiPath AcitivityIO ActivityFolder IO Folder CreateFolder</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.8" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Activities" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.ServiceModel" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.ServiceModel.Activities" targetFramework=".NETFramework4.8" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="P42.IO.dll" target="lib\P42.IO.dll" />
+    <file src="P42.IO.pdb" target="lib\P42.IO.pdb" />
+  </files>
+</package>
