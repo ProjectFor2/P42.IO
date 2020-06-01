@@ -22,7 +22,7 @@
     <img src="https://projectfor2.com.br/wp-content/uploads/2020/05/uipath.jpg" alt="Logo" width="50" height="50">
   </a>
 
-  <h3 align="center">P42 Activities IO</h3>
+  <h3 align="center">Project For 2 IO Activities</h3>
 
   <p align="center">
     <br />
