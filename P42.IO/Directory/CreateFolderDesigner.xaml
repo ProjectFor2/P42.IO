@@ -18,13 +18,14 @@
     <Grid Width="300">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-
+        <Label Grid.Row="0" Content="{x:Static p42prop:Resources.CreateFolderPathLabel}" Margin="-5 0 0 0"/>
         <sapv:ExpressionTextBox Name="inPath" 
                                 Expression="{Binding Path=ModelItem.Path, 
                                                      Mode=TwoWay,                         
@@ -34,12 +35,13 @@
                                 HintText="{x:Static p42prop:Resources.CreateFolderPlaceHolder}"
                                 OwnerActivity="{Binding Path=ModelItem}"
                                 ToolTip="{x:Static p42prop:Resources.CreateFolderPathDescription}"
-                                Grid.Row="0"
+                                Grid.Row="1"
                                 Grid.Column="0"
                                 Height="23"
                                 Width="275" />
 
         <Button Click="BrowseFolder" 
+                Grid.Row="1"
                 Grid.Column="1" 
                 Width="23" 
                 Height="23" 

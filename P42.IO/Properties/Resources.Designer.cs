@@ -61,7 +61,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Common.
         /// </summary>
         public static string CategoryCommon {
             get {
@@ -88,7 +88,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Enables the option to not throw an exception if an error occurs. When enabled, it logs a trace of the problem..
         /// </summary>
         public static string ContinueOnErrorDescription {
             get {
@@ -97,7 +97,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ContinueOnError.
         /// </summary>
         public static string ContinueOnErrorDisplayName {
             get {
@@ -160,7 +160,16 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Enter Path.
+        ///   Looks up a localized string similar to Folder Name.
+        /// </summary>
+        public static string CreateFolderPathLabel {
+            get {
+                return ResourceManager.GetString("CreateFolderPathLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The full path of the directory to be created..
         /// </summary>
         public static string CreateFolderPlaceHolder {
             get {
@@ -169,7 +178,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Delete folder in a specified path..
         /// </summary>
         public static string DeleteFolderDescription {
             get {
@@ -178,7 +187,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Delete Folder.
         /// </summary>
         public static string DeleteFolderDisplayName {
             get {
@@ -187,7 +196,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to The full path of the directory to be deleted..
         /// </summary>
         public static string DeleteFolderPathDescription {
             get {
@@ -196,7 +205,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Path.
         /// </summary>
         public static string DeleteFolderPathDisplayName {
             get {
@@ -205,7 +214,25 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Folder Name.
+        /// </summary>
+        public static string DeleteFolderPathLabel {
+            get {
+                return ResourceManager.GetString("DeleteFolderPathLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The full path of the directory to be deleted..
+        /// </summary>
+        public static string DeleteFolderPlaceHolder {
+            get {
+                return ResourceManager.GetString("DeleteFolderPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Enables the recursive deletion option that deletes the folder and all its contents..
         /// </summary>
         public static string DeleteFolderRecursiveDescription {
             get {
@@ -214,7 +241,7 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Recursive.
         /// </summary>
         public static string DeleteFolderRecursiveDisplayName {
             get {
