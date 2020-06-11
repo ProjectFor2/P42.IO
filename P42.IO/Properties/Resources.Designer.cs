@@ -61,6 +61,15 @@ namespace P42.IO.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CategoryCommon {
+            get {
+                return ResourceManager.GetString("CategoryCommon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Directory.
         /// </summary>
         public static string CategoryDirectory {
@@ -75,6 +84,24 @@ namespace P42.IO.Properties {
         public static string CategoryOutput {
             get {
                 return ResourceManager.GetString("CategoryOutput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ContinueOnErrorDescription {
+            get {
+                return ResourceManager.GetString("ContinueOnErrorDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ContinueOnErrorDisplayName {
+            get {
+                return ResourceManager.GetString("ContinueOnErrorDisplayName", resourceCulture);
             }
         }
         
@@ -138,6 +165,60 @@ namespace P42.IO.Properties {
         public static string CreateFolderPlaceHolder {
             get {
                 return ResourceManager.GetString("CreateFolderPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DeleteFolderDescription {
+            get {
+                return ResourceManager.GetString("DeleteFolderDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DeleteFolderDisplayName {
+            get {
+                return ResourceManager.GetString("DeleteFolderDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DeleteFolderPathDescription {
+            get {
+                return ResourceManager.GetString("DeleteFolderPathDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DeleteFolderPathDisplayName {
+            get {
+                return ResourceManager.GetString("DeleteFolderPathDisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DeleteFolderRecursiveDescription {
+            get {
+                return ResourceManager.GetString("DeleteFolderRecursiveDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DeleteFolderRecursiveDisplayName {
+            get {
+                return ResourceManager.GetString("DeleteFolderRecursiveDisplayName", resourceCulture);
             }
         }
         

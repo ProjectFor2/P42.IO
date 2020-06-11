@@ -73,6 +73,7 @@ namespace P42.IO.Test
                 Activities = {
                     new CreateFolder
                     {
+                        ContinueOnError = new InArgument<bool>(false),
                         Path = new InArgument<string>(path),
                         PathInfo = new OutArgument<DirectoryInfo>(pathInfo)
                     },

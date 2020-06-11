@@ -1,0 +1,70 @@
+﻿<sap:ActivityDesigner x:Class="P42.IO.Directory.DeleteFolderDesigner"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:System;assembly=mscorlib"
+    xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+    xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation" 
+    xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation"
+    xmlns:converters="clr-namespace:P42.IO.Helper"
+    xmlns:p42prop="clr-namespace:P42.IO.Properties">
+
+    <sap:ActivityDesigner.Resources>
+        <ResourceDictionary>
+            <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter" />
+            <converters:ActivityIconConverterHelper x:Key="ActivityIconConverterHelper" />
+        </ResourceDictionary>
+    </sap:ActivityDesigner.Resources>
+
+    <Grid Width="300">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <sapv:ExpressionTextBox Name="inPath" 
+                                Expression="{Binding Path=ModelItem.Path, 
+                                                     Mode=TwoWay,                         
+                                                     Converter={StaticResource ArgumentToExpressionConverter}, 
+                                                     ConverterParameter=In }"
+                                ExpressionType="s:String"
+                                HintText="{x:Static p42prop:Resources.CreateFolderPlaceHolder}"
+                                OwnerActivity="{Binding Path=ModelItem}"
+                                ToolTip="{x:Static p42prop:Resources.CreateFolderPathDescription}"
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Height="23"
+                                Width="275" />
+
+        <Button Click="BrowseFolder" 
+                Grid.Column="1" 
+                Width="23" 
+                Height="23" 
+                FontWeight="Bold"
+                Margin="2 0 0 0"
+                ToolTip="{x:Static p42prop:Resources.FolderBrowserDialogDescription}">
+            <Rectangle Width="16" Height="16">
+                <Rectangle.Fill>
+                    <DrawingBrush>
+                        <DrawingBrush.Drawing>
+                            <DrawingGroup ClipGeometry="M0,0 V128 H128 V0 H0 Z">
+                                <GeometryDrawing Brush="#FFFFFFFF" Geometry="F1 M128,128z M0,0z M114,112.5L14,112.5C8.5,112.5,4,108,4,102.5L4,37.5C4,32,8.5,27.5,14,27.5L114,27.5C119.5,27.5,124,32,124,37.5L124,102.5C124,108,119.5,112.5,114,112.5z" />
+                                <GeometryDrawing Brush="#FFE5E6E6" Geometry="F1 M128,128z M0,0z M114,102.5L14,102.5C8.5,102.5,4,98,4,92.5L4,102.5C4,108,8.5,112.5,14,112.5L114,112.5C119.5,112.5,124,108,124,102.5L124,92.5C124,98,119.5,102.5,114,102.5z" />
+                                <GeometryDrawing Brush="#FFE5E6E6" Geometry="F1 M128,128z M0,0z M4,27.5L4,25.5C4,20,8.5,15.5,14,15.5L38.4,15.5C41.9,15.5,45.1,17.3,46.9,20.3L50.5,26.2" />
+                                <GeometryDrawing Brush="#FF4A374F" Geometry="F1 M128,128z M0,0z M14,114L114,114C120.3,114,125.5,108.8,125.5,102.5L125.5,37.5C125.5,31.2,120.3,26,114,26L52.1,26C52.1,25.8,52,25.6,51.9,25.4L48.3,19.5C46.2,16.1,42.5,14,38.5,14L14,14C7.7,14,2.5,19.2,2.5,25.5L2.5,27.5C2.5,28.3 3.2,29 4,29 4.8,29 5.5,28.3 5.5,27.5L5.5,25.5C5.5,20.8,9.3,17,14,17L38.4,17C41.3,17,44.1,18.5,45.6,21L48.6,26 14,26C7.7,26,2.5,31.2,2.5,37.5L2.5,102.5C2.5,108.8,7.7,114,14,114z M5.5,37.5C5.5,32.8,9.3,29,14,29L114,29C118.7,29,122.5,32.8,122.5,37.5L122.5,102.5C122.5,107.2,118.7,111,114,111L14,111C9.3,111,5.5,107.2,5.5,102.5L5.5,37.5z" />
+                            </DrawingGroup>
+                        </DrawingBrush.Drawing>
+                    </DrawingBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+    </Grid>
+
+    <sap:ActivityDesigner.Icon>
+        <DrawingBrush Stretch="Uniform" Drawing="{Binding Path=ModelItem, Converter={StaticResource ActivityIconConverterHelper}, ConverterParameter=pack://application:\,\,\,/P42.IO;component/Themes/Icons.xaml}" />
+    </sap:ActivityDesigner.Icon>
+
+</sap:ActivityDesigner>

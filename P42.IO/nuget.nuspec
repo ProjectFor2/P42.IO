@@ -15,10 +15,14 @@
 You can create, search, rename, copy, move, replace, delete and add/remove permissions on folders and files.
     </description>
     <summary>Custom activities to manipulate directories and files on the Windows Workflow Foundation and UiPath platform.</summary>
-    <releaseNotes>#1 Create Folder Activity.</releaseNotes>
+    <releaseNotes>
+      #1.0.0 Create Folder Activity.
+#1.1.0 Delete Folder Activity.
+    </releaseNotes>
     <copyright>Copyright © 2020 Project For 2</copyright>
     <language>en-US</language>
-    <tags>ProjectFor2 UiPath AcitivityIO ActivityFolder IO Folder CreateFolder</tags>
+    <tags>ProjejctFor2 Projejct42 P42 UiPath Microsoft IO CreateFolder DeleteFolder ExistsFolder GetFiles MoveFolder RenameFolder Activity ActivityCustom</tags>
+    <repository type="git" url="https://github.com/ProjectFor2/P42.IO.git" />
     <dependencies>
       <group targetFramework=".NETFramework4.8" />
     </dependencies>

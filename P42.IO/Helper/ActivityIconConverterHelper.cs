@@ -41,7 +41,7 @@ namespace P42.IO.Helper
                     icon = Application.Current.Resources["GenericLeafActivityIcon"] as DrawingBrush;
                 }
 
-                return icon.Drawing;
+                return icon?.Drawing ?? null;
             }
             catch (Exception)
             {
