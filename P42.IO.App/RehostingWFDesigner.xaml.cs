@@ -25,6 +25,7 @@ namespace P42.IO.App
             // Add custom activity to toolbox.
             Toolbox.Categories.Add(new ToolboxCategory("Custom activities"));
             Toolbox.Categories[1].Add(new ToolboxItemWrapper(typeof(CreateFolder)));
+            Toolbox.Categories[1].Add(new ToolboxItemWrapper(typeof(DeleteFolder)));
 
             // Create the workflow designer.
             var wd = new WorkflowDesigner();
@@ -38,6 +39,7 @@ namespace P42.IO.App
         {
             var builder = new AttributeTableBuilder();
             builder.AddCustomAttributes(typeof(CreateFolder), new DesignerAttribute(typeof(CreateFolderDesigner)));
+            builder.AddCustomAttributes(typeof(DeleteFolder), new DesignerAttribute(typeof(DeleteFolderDesigner)));
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
     }

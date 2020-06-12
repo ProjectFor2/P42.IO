@@ -3,21 +3,16 @@ using P42.IO.Properties;
 using System;
 using System.Activities;
 using System.Diagnostics;
-using System.IO;
 
 namespace P42.IO.Directory
 {
-    [LocalizedDisplayName(nameof(Resources.CreateFolderDisplayName))]
-    [LocalizedDescription(nameof(Resources.CreateFolderDescription))]
-    public sealed class CreateFolder : CodeActivity
+    [LocalizedDisplayName(nameof(Resources.DeleteFolderDisplayName))]
+    [LocalizedDescription(nameof(Resources.DeleteFolderDescription))]
+    public class DeleteFolder : CodeActivity
     {
-        public CreateFolder()
-        {
 #if DEBUG
-            new DesignerMetadata().Register();
-#endif        
-        }
-
+        public DeleteFolder() => new DesignerMetadata().Register();
+#endif
         [LocalizedCategory(nameof(Resources.CategoryCommon))]
         [LocalizedDisplayName(nameof(Resources.ContinueOnErrorDisplayName))]
         [LocalizedDescription(nameof(Resources.ContinueOnErrorDescription))]
@@ -25,14 +20,15 @@ namespace P42.IO.Directory
 
         [RequiredArgument]
         [LocalizedCategory(nameof(Resources.CategoryDirectory))]
-        [LocalizedDisplayName(nameof(Resources.CreateFolderPathDisplayName))]
-        [LocalizedDescription(nameof(Resources.CreateFolderPathDescription))]
+        [LocalizedDisplayName(nameof(Resources.DeleteFolderPathDisplayName))]
+        [LocalizedDescription(nameof(Resources.DeleteFolderPathDescription))]
         public InArgument<string> Path { get; set; }
 
-        [LocalizedCategory(nameof(Resources.CategoryOutput))]
-        [LocalizedDisplayName(nameof(Resources.CreateFolderPathInfoDisplayName))]
-        [LocalizedDescription(nameof(Resources.CreateFolderPathInfoDescription))]
-        public OutArgument<DirectoryInfo> PathInfo { get; set; }
+        [RequiredArgument]
+        [LocalizedCategory(nameof(Resources.CategoryDirectory))]
+        [LocalizedDisplayName(nameof(Resources.DeleteFolderRecursiveDisplayName))]
+        [LocalizedDescription(nameof(Resources.DeleteFolderRecursiveDescription))]
+        public InArgument<bool> Recursive { get; set; }
 
         protected override void CacheMetadata(CodeActivityMetadata metadata)
         {
@@ -45,11 +41,11 @@ namespace P42.IO.Directory
         {
             var continueOnError = context.GetValue(ContinueOnError);
             var path = context.GetValue(Path);
+            var recursive = context.GetValue(Recursive);
 
             try
             {
-                var result = DirectoryHelper.CreateDirectory(path);
-                context.SetValue(PathInfo, result);
+                DirectoryHelper.DeleteDirectory(path, recursive);
             }
             catch (Exception ex)
             {
@@ -61,7 +57,7 @@ namespace P42.IO.Directory
                 {
                     throw;
                 }
-            }
+            }            
         }
     }
 }

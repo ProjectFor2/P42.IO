@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="CategoryCommon" xml:space="preserve">
+    <value>Common</value>
+    <comment>Common Category.</comment>
+  </data>
   <data name="CategoryDirectory" xml:space="preserve">
     <value>Directory</value>
     <comment>Direcotry Category.</comment>
@@ -124,6 +128,14 @@
   <data name="CategoryOutput" xml:space="preserve">
     <value>Output</value>
     <comment>Output Category.</comment>
+  </data>
+  <data name="ContinueOnErrorDescription" xml:space="preserve">
+    <value>Enables the option to not throw an exception if an error occurs. When enabled, it logs a trace of the problem.</value>
+    <comment>ContinueOnError property description.</comment>
+  </data>
+  <data name="ContinueOnErrorDisplayName" xml:space="preserve">
+    <value>ContinueOnError</value>
+    <comment>ContinueOnError property title.</comment>
   </data>
   <data name="CreateFolderDescription" xml:space="preserve">
     <value>Creating folders in a specified path.</value>
@@ -149,9 +161,45 @@
     <value>PathInfo</value>
     <comment>PathInfo property title.</comment>
   </data>
+  <data name="CreateFolderPathLabel" xml:space="preserve">
+    <value>Folder Name</value>
+    <comment>PathLabel.</comment>
+  </data>
   <data name="CreateFolderPlaceHolder" xml:space="preserve">
-    <value>Enter Path</value>
+    <value>The full path of the directory to be created.</value>
     <comment>Path property placeholder.</comment>
+  </data>
+  <data name="DeleteFolderDescription" xml:space="preserve">
+    <value>Delete folder in a specified path.</value>
+    <comment>Activity description.</comment>
+  </data>
+  <data name="DeleteFolderDisplayName" xml:space="preserve">
+    <value>Delete Folder</value>
+    <comment>Activity title.</comment>
+  </data>
+  <data name="DeleteFolderPathDescription" xml:space="preserve">
+    <value>The full path of the directory to be deleted.</value>
+    <comment>Path property description.</comment>
+  </data>
+  <data name="DeleteFolderPathDisplayName" xml:space="preserve">
+    <value>Path</value>
+    <comment>Path property title.</comment>
+  </data>
+  <data name="DeleteFolderPathLabel" xml:space="preserve">
+    <value>Folder Name</value>
+    <comment>PathLabel.</comment>
+  </data>
+  <data name="DeleteFolderPlaceHolder" xml:space="preserve">
+    <value>The full path of the directory to be deleted.</value>
+    <comment>Path property placeholder.</comment>
+  </data>
+  <data name="DeleteFolderRecursiveDescription" xml:space="preserve">
+    <value>Enables the recursive deletion option that deletes the folder and all its contents.</value>
+    <comment>Recursive property description.</comment>
+  </data>
+  <data name="DeleteFolderRecursiveDisplayName" xml:space="preserve">
+    <value>Recursive</value>
+    <comment>Recursive property title.</comment>
   </data>
   <data name="FolderBrowserDialogDescription" xml:space="preserve">
     <value>Select Folder</value>
