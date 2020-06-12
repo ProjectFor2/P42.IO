@@ -20,11 +20,7 @@ namespace P42.IO.Test
         public void CreateDirectoryArgumentNullExceptionTest() => CreateFolderSuccessTest(null);
 
         [TestMethod, ExpectedException(typeof(DirectoryNotFoundException))]
-        public void CreateDirectoryDirectoryNotFoundExceptionTest()
-        {
-            System.IO.Directory.SetCurrentDirectory($@"PATH\{PATH}_temp");
-            CreateFolderSuccessTest($@"{PATH}");
-        }
+        public void CreateDirectoryDirectoryNotFoundExceptionTest() => System.IO.Directory.SetCurrentDirectory($@"PATH\{PATH}_temp");
 
         [TestMethod, ExpectedException(typeof(IOException))]
         public void CreateDirectoryIOExceptionTest()
@@ -33,10 +29,7 @@ namespace P42.IO.Test
             var fullName = $@"{PATH}\{fileName}";
 
             CreateFolderSuccessTest(PATH);
-
-            if (!File.Exists(fullName))
-                File.Create(fullName);
-
+            TestHelper.CreateFile(fullName);
             CreateFolderSuccessTest(fullName);
         }
 
@@ -73,6 +66,7 @@ namespace P42.IO.Test
                 Activities = {
                     new CreateFolder
                     {
+                        ContinueOnError = new InArgument<bool>(false),
                         Path = new InArgument<string>(path),
                         PathInfo = new OutArgument<DirectoryInfo>(pathInfo)
                     },

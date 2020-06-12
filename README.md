@@ -183,7 +183,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [issues-shield]: https://img.shields.io/github/issues/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=Issues
 [issues-url]: https://github.com/ProjectFor2/P42-Activities-IO/issues
 [license-shield]: https://img.shields.io/github/license/ProjectFor2/P42-Activities-IO.svg?style=flat-square&label=License
-[license-url]: https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE.txt
+[license-url]: https://github.com/ProjectFor2/P42-Activities-IO/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/projectfor2
 

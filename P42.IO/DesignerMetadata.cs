@@ -15,6 +15,9 @@ namespace P42.IO
             builder.AddCustomAttributes(typeof(CreateFolder), new DesignerAttribute(typeof(CreateFolderDesigner)));
             builder.AddCustomAttributes(typeof(CreateFolder), new HelpKeywordAttribute(""));
 
+            builder.AddCustomAttributes(typeof(DeleteFolder), new DesignerAttribute(typeof(DeleteFolderDesigner)));
+            builder.AddCustomAttributes(typeof(DeleteFolder), new HelpKeywordAttribute(""));
+
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
     }
