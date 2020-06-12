@@ -5,18 +5,15 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace P42.IO.Helper
+namespace P42.IO.Converters
 {
-    public class ActivityIconConverterHelper : IValueConverter
+    public class ActivityIconConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             try
             {
-                if (value == null)
-                {
-                    return null;
-                }
+                if (value == null) return null;
 
                 var activityType = (value as ModelItem).ItemType;
                 var resourceName = activityType.Name;

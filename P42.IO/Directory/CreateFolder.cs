@@ -11,9 +11,13 @@ namespace P42.IO.Directory
     [LocalizedDescription(nameof(Resources.CreateFolderDescription))]
     public sealed class CreateFolder : CodeActivity
     {
+        public CreateFolder()
+        {
 #if DEBUG
-        public CreateFolder() => new DesignerMetadata().Register();
-#endif
+            new DesignerMetadata().Register();
+#endif        
+        }
+
         [LocalizedCategory(nameof(Resources.CategoryCommon))]
         [LocalizedDisplayName(nameof(Resources.ContinueOnErrorDisplayName))]
         [LocalizedDescription(nameof(Resources.ContinueOnErrorDescription))]
@@ -57,7 +61,7 @@ namespace P42.IO.Directory
                 {
                     throw;
                 }
-            }            
+            }
         }
     }
 }

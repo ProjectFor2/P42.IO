@@ -67,6 +67,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Converters\ActivityIconConverter.cs" />
     <Compile Include="DesignerMetadata.cs" />
     <Compile Include="Directory\CreateFolder.cs" />
     <Compile Include="Directory\CreateFolderDesigner.xaml.cs">
@@ -76,7 +77,6 @@
     <Compile Include="Directory\DeleteFolderDesigner.xaml.cs">
       <DependentUpon>DeleteFolderDesigner.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Helper\ActivityIconConverterHelper.cs" />
     <Compile Include="Helper\DirectoryHelper.cs" />
     <Compile Include="Helper\DataContainerHelper.cs" />
     <Compile Include="Helper\LocalizationHelper.cs" />
